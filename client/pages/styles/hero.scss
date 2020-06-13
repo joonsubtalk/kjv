@@ -1,0 +1,28 @@
+.hero {
+    font-size: 1rem;
+    &__container {
+        position: relative;
+    }
+    &__kicker {
+        position: absolute;
+        right: 10vw;
+    }
+    &__shards {
+        position: absolute;
+        right: 20vw;
+        z-index: 500;
+    }
+    &__crack {
+        position: absolute;
+        right: 20vw;
+        top: -10em;
+    }
+}
+
+.shard {
+    width: 0; 
+    height: 0; 
+    border-left: 35px solid transparent;
+    border-right: 35px solid transparent;    
+    border-bottom: 35px solid rgba(206,222,230,.8);
+}
